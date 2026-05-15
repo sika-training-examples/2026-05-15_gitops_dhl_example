@@ -21,5 +21,7 @@ spec:
     path: charts/one-image
     helm:
       valuesObject:
+        # https://github.com/sikalabs/charts/blob/master/charts/one-image/values.yaml
         host: iceland5.aks.sikademo.com
         image: ghcr.io/ondrejsika/iceland-5
+        ingressClassName: haproxy
