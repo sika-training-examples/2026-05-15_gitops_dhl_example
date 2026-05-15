@@ -23,6 +23,6 @@ spec:
       targetRevision: 9.5.14
       helm:
         valueFiles:
-          - $values/clusters/aks2/_cluster/argocd/argocd.values.yaml
+          - $values/clusters/aks3/_cluster/argocd/argocd.values.yaml
     - repoURL: https://github.com/sika-training-examples/2026-05-15_gitops_dhl_example.git
       ref: values
