@@ -24,5 +24,7 @@ spec:
       helm:
         valuesObject:
           controller:
+            service:
+              loadBalancerIP: 72.144.126.182
             ingressClassResource:
               enabled: true
